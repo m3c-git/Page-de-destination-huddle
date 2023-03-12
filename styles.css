@@ -1,0 +1,67 @@
+/* General */*
+
+body
+{
+    background: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+    margin: 70px;
+    height: 100%;
+}
+
+main
+{
+    display: flex;
+    flex-direction: row;
+/*     padding: 50px 50px ;
+ */}
+
+/* corps de page*/
+
+header
+{
+    margin-bottom: 50px;
+}
+
+.logo
+{
+    width: 180px;
+    height: 100px;
+}
+
+h1
+{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+p, button
+{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+p
+{
+    color: hsl(0, 0%, 100%);
+
+}
+
+.text, h1
+{
+
+    padding-right: 300px ;
+}
+
+.text
+{
+    margin-left: 50px;
+    
+}
+
+.text p
+{
+    padding-right: 220px ;
+
+}
