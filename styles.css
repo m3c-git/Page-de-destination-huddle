@@ -1,10 +1,37 @@
 /* General */*
 
+*, ::before, ::after
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html
+{
+
+    height: 100%;
+    width: 1440px;
+
+}
+
 body
 {
     background: hsl(257, 40%, 49%);
     background-image: url(images/bg-desktop.svg);
-    margin: 70px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0px 0px 0px 100px;
+    width: 1440px;
+
+
+}
+
+img
+{
+    margin-top: 30px;
     height: 100%;
 }
 
@@ -12,56 +39,94 @@ main
 {
     display: flex;
     flex-direction: row;
-/*     padding: 50px 50px ;
- */}
+    padding: 85px 0px ;
+}
 
 /* corps de page*/
 
 header
 {
-    margin-bottom: 50px;
+    margin-top: 10px;
+    height: 100px;
+
 }
 
 .logo
 {
     width: 180px;
-    height: 100px;
+    height: 90px;
 }
 
 h1
 {
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
     color: hsl(0, 0%, 100%);
 }
 
-
-
-p, button
+.text
 {
-    font-family: 'Open Sans', sans-serif;
-
+    margin-left: 100px;
+    
 }
 
 p
 {
     color: hsl(0, 0%, 100%);
-
 }
 
 .text, h1
 {
-
-    padding-right: 300px ;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 50px;
+    padding-top: 40px;
 }
 
-.text
-{
-    margin-left: 50px;
-    
-}
+
 
 .text p
 {
-    padding-right: 220px ;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    padding-right: 60px;
 
+}
+
+.btn a
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    height: 55px;
+    width: 200px;
+    margin-left: 15px;
+    border: solid 1px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    flex-direction: row;
+}
+footer i 
+ {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    height: 90px;
+    width: 90px;
+    border: solid 1px;
+    size: 100px;
 }
