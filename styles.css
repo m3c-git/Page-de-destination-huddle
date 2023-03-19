@@ -135,11 +135,12 @@ footer
 
 
 }
-.copyright:link
+.copyright:link, .copyright:visited, .copyright:hover, .copyright:active
 {
     color: #e6ad5c;
     text-decoration: none;
 }
+
 
 .social
 {
@@ -311,7 +312,7 @@ footer
 
     }
 
-    .copyright:link
+    .copyright:link, .copyright:visited, .copyright:hover, .copyright:active
     {
         color: #e6ad5c;
         text-decoration: none;
