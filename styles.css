@@ -146,9 +146,9 @@ footer
 {
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: center;
+    align-items: center;
     margin-right: 60px;
-    text-align:center;
 
 }
 
@@ -322,8 +322,8 @@ footer
         margin-bottom: 20px;
         display: flex;
         flex-direction: row;
-        justify-content: end;
-        text-align: center;
+        justify-content: center;
+        align-items: center;
 
     }
 
