@@ -20,7 +20,7 @@ Il s'agit d'une solution au [défi pour la page de destination Huddle sur Fronte
 
 ## Liens
 - Solution URL: (https://github.com/m3c-git/Page-de-destination-huddle)
-- Live Site URL: (https://m3c-git.github.io/cartes-fonctionnalites)
+- Live Site URL: (https://m3c-git.github.io/Page-de-destination-huddle)
 
 ## Mon processus
 
