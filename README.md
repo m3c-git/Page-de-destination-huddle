@@ -15,6 +15,8 @@ Il s'agit d'une solution au [défi pour la page de destination Huddle sur Fronte
 
 
 ## Aperçu
+![screenshot1](https://user-images.githubusercontent.com/122054879/226203841-63f2a454-35d2-4904-a0e1-44e3e6525467.png)
+![screenshot2](https://user-images.githubusercontent.com/122054879/226203847-6804b1f1-b084-452b-b496-1f77e1c655bd.png)
 
 ### Capture d'écran
 
