@@ -135,7 +135,7 @@ footer
 
 
 }
-.copyright:link, .copyright:visited, .copyright:hover, .copyright:active
+.copyright:link:visited:hover:active
 {
     color: #e6ad5c;
     text-decoration: none;
@@ -146,9 +146,9 @@ footer
 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: end;
     margin-right: 60px;
+    text-align:end;
 
 }
 
@@ -322,8 +322,7 @@ footer
         margin-bottom: 20px;
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        justify-content: end;
 
     }
 
